@@ -26,6 +26,20 @@
 		}
 		-->
 		</script>
+				<script type="text/javascript">
+		<!--
+		function GetUnity() {
+			if (typeof unityObject != "undefined") {
+				return unityObject.getObjectById("unity3d-trajectory-prototypes-3d");
+			}
+			return null;
+		}
+		if (typeof unityObject != "undefined") {
+			unityObject.embedUnity("unity3d-trajectory-prototypes-3d", "WebPlayer/unity3d-trajectory-prototypes-3d.unity3d", 320, 480);
+			
+		}
+		-->
+		</script>
   </head>
 
   <body>
@@ -46,11 +60,20 @@
         <hr>
 
         <section id="main_content">
-			<div id="unityPlayer">
-				<div class="missing">
-					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
-						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
-					</a>
+        	<div class="content" class="clearfix">
+				<div id="unityPlayer">
+					<div class="missing">
+						<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+							<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+						</a>
+					</div>
+				</div>
+				<div id="unity3d-trajectory-prototypes-3d">
+					<div class="missing">
+						<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+							<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+						</a>
+					</div>
 				</div>
 			</div>
       </div>
